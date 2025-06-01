@@ -21,22 +21,6 @@ Este proyecto es un sistema inteligente para la compra automatizada de latas de 
 - **Base de datos protegida**: todo se almacena en una base de datos MySQL con control de acceso.
 - **Códigos QR únicos**: cada venta genera un QR que puede usarse para seguimiento o verificación.
 
----
-
-## 📦 Estructura del Proyecto
-
-/compra-latas/
-│
-├── index.php # Página principal del sistema
-├── js/
-│ └── funciones.js # Lógica de frontend y conexión QR
-├── qr/
-│ └── generarQR.php # Script para generación de códigos QR
-├── db/
-│ └── conexion.php # Conexión segura a MySQL
-└── README.md # Este archivo
----
-
 ## ⚙️ Requisitos
 
 - Servidor con PHP >= 7.4
