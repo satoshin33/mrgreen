@@ -2,7 +2,7 @@
 
 Este proyecto es un sistema inteligente para la compra automatizada de latas de aluminio. Fue diseñado para ser seguro, eficiente y fácil de usar, ideal para centros de reciclaje, cooperativas o máquinas compradoras de latas.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 Características Principales
 
@@ -35,11 +35,6 @@ Este proyecto es un sistema inteligente para la compra automatizada de latas de 
 ├── db/
 │ └── conexion.php # Conexión segura a MySQL
 └── README.md # Este archivo
-
-yaml
-Copiar
-Editar
-
 ---
 
 ## ⚙️ Requisitos
@@ -49,28 +44,4 @@ Editar
 - Navegador moderno con soporte para JavaScript
 - Extensión GD de PHP para generación de QR (opcional)
 
----
 
-## 🔧 Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/compra-latas.git
-Configura la base de datos en db/conexion.php.
-
-Asegúrate de tener activado el módulo GD para generar los códigos QR.
-
-Accede a index.php desde el navegador.
-
-📲 Código QR
-Cada transacción genera automáticamente un código QR que contiene:
-
-ID de la venta
-
-Peso total de latas
-
-Fecha y hora
-
-Valor pagado
-
-Este QR puede ser escaneado para confirmar los datos de la transacción de forma pública, sin comprometer datos sensibles.
